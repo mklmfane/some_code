@@ -7,6 +7,7 @@ pipeline {
     stage('echo') {
       steps {
         echo 'hello from the trigger that you requested it'
+        printf "Do it regularly" 
       }
     }
 
